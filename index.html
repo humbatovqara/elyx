@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS / Bootstrap -->
+    <link rel="stylesheet" href="library/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Elyx - Coming Soon Page</title>
+</head>
+
+<body>
+
+    <!-- Background Layer -->
+    <div class="backgroundLayer">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="glassLayer"></div>
+    </div>
+
+    <div class="container" id="container">
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="container-fluid navbar__container">
+                <a href="#" class="navbar__brand">elyx</a>
+                <div class="dropdown navbar__dropdown">
+                    <button class="btn dropdown-toggle dropdown__btn" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                    </button>
+                    <ul class="dropdown-menu dropdown__menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Azerbaijan</a></li>
+                        <li><a class="dropdown-item" href="#">Russian</a></li>
+                        <li><a class="dropdown-item" href="#">Turkish</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="row">
+            <div class="col">
+                <div class="main">
+                    <p class="main__small">coming soon</p>
+                    <p class="main__title">We will be with you <br> as soon as possible</p>
+                    <p class="main__subtitle">Elit vitae pharetra auctor commodo libero, elementum tellus. <br>
+                        Et arcu sed nec accumsan at pellentesque neque.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timer -->
+        <div class="row">
+            <div class="col">
+                <div class="timer">
+                    <div class="timer__box">
+                        <span>Days</span>
+                        <span id="days">97</span>
+                    </div>
+                    <div class="timer__box">
+                        <span>Hrs</span>
+                        <span id="hours">13</span>
+                    </div>
+                    <div class="timer__box">
+                        <span>Min</span>
+                        <span id="minutes">09</span>
+                    </div>
+                    <div class="timer__box">
+                        <span>Sec</span>
+                        <span id="seconds">34</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="row">
+            <div class="col">
+                <div class="part">
+                    <button type="button" class="part__btn">Be a part of elyx</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="library/bootstrap/js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

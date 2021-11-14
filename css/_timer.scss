@@ -1,0 +1,60 @@
+.timer {
+    display: flex;
+    justify-content: center;
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 16px 0px 12px;
+        margin: 0px 6px;
+        width: 80px;
+        height: 84px;
+        background: #000;
+        color: #fff;
+        border-radius: 14px;
+
+        span:first-of-type {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        span:last-of-type {
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.part {
+    margin: 65px 0 0 0;
+    text-align: center;
+
+    &__btn {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px 12px 16px;
+        background: #287AF3;
+        color: #fff;
+        border-radius: 12px;
+        border: none;
+
+        &::before {
+            content: url(../img/Document.svg);
+            margin: 5px 20px 0 0;
+            text-align: center
+        }
+    }
+}

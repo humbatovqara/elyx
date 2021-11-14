@@ -1,0 +1,31 @@
+.main {
+    // margin: 142px auto 0px auto;
+    margin: 61px auto 0px auto;
+    // width: 744px;
+
+    &__small {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #287AF3;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 80px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__subtitle {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #596780;
+        margin-bottom: 24px;
+    }
+}
