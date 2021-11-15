@@ -35,7 +35,7 @@ function star() {
     let randomWidth = Math.floor((Math.random() * windowW) - 150);
     let randomHeight = Math.floor((Math.random() * windowH) - 150);
 
-    starImg.src = "../img/star.png";
+    starImg.src = "img/star.png";
     starImg.style.marginRight = "10px";
 
     starBox.style.width = "100px";
